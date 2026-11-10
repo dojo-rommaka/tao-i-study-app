@@ -1,0 +1,12 @@
+{
+  "name": "Tao I — Caderno de ideogramas",
+  "short_name": "Tao I",
+  "description": "Estude ideogramas, significados, frases e exercícios.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f1",
+  "theme_color": "#17352c",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

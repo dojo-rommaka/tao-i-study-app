@@ -1,0 +1,58 @@
+[
+  {
+    "id": "yi",
+    "character": "一",
+    "pinyin": "yī",
+    "meaning": "um; único; unidade",
+    "individualMeaning": "Representa o número um. Em contextos filosóficos, pode também sugerir unidade ou princípio, conforme a fonte e o contexto.",
+    "strokes": ["Traço 1: horizontal (héng), da esquerda para a direita."],
+    "strokeCount": 1,
+    "phrase": "Um passo atento começa a caminhada.",
+    "translation": "Frase original em português para praticar a ideia de unidade.",
+    "exercise": "Observe a respiração e faça uma pausa antes de iniciar uma tarefa.",
+    "steps": ["Relaxe a mão e apoie o papel.", "Trace 一 da esquerda para a direita, mantendo a linha estável.", "Repita cinco vezes e compare o tamanho e a inclinação.", "Leia a frase e faça o exercício por um minuto."],
+    "category": "Fundamentos"
+  },
+  {
+    "id": "ren",
+    "character": "人",
+    "pinyin": "rén",
+    "meaning": "pessoa; ser humano",
+    "individualMeaning": "Pictograma associado à figura de uma pessoa. O sentido concreto depende do uso na palavra ou frase.",
+    "strokes": ["Traço 1: 撇 (piě), descendo para a esquerda.", "Traço 2: 捺 (nà), descendo para a direita; começa próximo ao topo do primeiro traço."],
+    "strokeCount": 2,
+    "phrase": "Uma pessoa aprende também ao escutar.",
+    "translation": "Frase original em português para acompanhar a prática.",
+    "exercise": "Escute alguém por dois minutos sem interromper; depois anote o que compreendeu.",
+    "steps": ["Observe a forma geral de 人.", "Faça o traço descendente para a esquerda.", "Comece o segundo traço perto do topo e desça para a direita.", "Repita o caractere e, em seguida, pratique o exercício de escuta."],
+    "category": "Fundamentos"
+  },
+  {
+    "id": "shan",
+    "character": "山",
+    "pinyin": "shān",
+    "meaning": "montanha",
+    "individualMeaning": "Representa uma montanha. Em palavras compostas, o contexto determina o significado específico.",
+    "strokes": ["Traço 1: vertical central (shù), de cima para baixo.", "Traço 2: vertical com dobra (shùzhé), formando o contorno esquerdo e a base.", "Traço 3: vertical à direita (shù), de cima para baixo."],
+    "strokeCount": 3,
+    "phrase": "A montanha permanece; o caminho muda.",
+    "translation": "Frase original em português para praticar observação e mudança.",
+    "exercise": "Olhe um objeto natural por um minuto e descreva três detalhes sem julgá-los.",
+    "steps": ["Imagine o contorno simples de três picos.", "Trace primeiro a linha vertical central.", "Faça o traço com dobra à esquerda, seguindo a ordem indicada.", "Finalize com a linha vertical da direita e pratique a observação."],
+    "category": "Natureza"
+  },
+  {
+    "id": "shui",
+    "character": "水",
+    "pinyin": "shuǐ",
+    "meaning": "água",
+    "individualMeaning": "Representa água; também aparece em muitos caracteres como componente relacionado a líquidos ou fluxo.",
+    "strokes": ["Traço 1: vertical com gancho (shùgōu), no centro.", "Traço 2: traço descendente para a esquerda (piě), começando acima e à esquerda.", "Traço 3: traço descendente para a esquerda (piě), partindo da região central.", "Traço 4: traço descendente para a direita (nà), começando próximo ao centro."],
+    "strokeCount": 4,
+    "phrase": "A água encontra passagem sem perder o movimento.",
+    "translation": "Frase original em português para acompanhar o estudo do caractere.",
+    "exercise": "Beba um copo de água devagar, prestando atenção à respiração e às sensações.",
+    "steps": ["Leia a ordem dos quatro traços antes de escrever.", "Faça o traço central com gancho.", "Adicione os dois traços à esquerda e finalize com o traço à direita.", "Escreva 水 três vezes e faça o exercício com atenção."],
+    "category": "Natureza"
+  }
+]

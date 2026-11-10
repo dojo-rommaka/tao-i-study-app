@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17352c">
+  <meta name="description" content="Caderno móvel para estudar ideogramas, traços, frases e exercícios.">
+  <title>Tao I — Caderno de ideogramas</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Tao I — início">
+      <span class="brand-mark" aria-hidden="true">道</span>
+      <span><strong>Tao I</strong><small>Caderno de estudo</small></span>
+    </a>
+    <button id="install-button" class="install-button" type="button" hidden>Instalar app</button>
+  </header>
+
+  <main id="inicio" class="page">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">SEU ESPAÇO DE PRÁTICA</p>
+      <h1 id="page-title">Estude um traço de cada vez.</h1>
+      <p>Consulte significados, pratique a escrita e acompanhe o que já estudou.</p>
+    </section>
+
+    <section class="toolbar" aria-label="Buscar e filtrar ideogramas">
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <span class="sr-only">Buscar</span>
+        <input id="search" type="search" placeholder="Buscar caractere ou significado" autocomplete="off">
+      </label>
+      <div class="filter-row" role="group" aria-label="Filtro de estudo">
+        <button class="filter active" data-filter="all" type="button">Todos</button>
+        <button class="filter" data-filter="new" type="button">Por estudar</button>
+        <button class="filter" data-filter="learned" type="button">Estudados</button>
+      </div>
+    </section>
+
+    <section class="study-layout" aria-label="Conteúdo de estudo">
+      <div class="list-column">
+        <div class="section-heading">
+          <h2>Ideogramas</h2>
+          <span id="result-count" class="result-count" aria-live="polite"></span>
+        </div>
+        <div id="character-list" class="character-list" aria-live="polite"></div>
+        <p id="empty-state" class="empty-state" hidden>Nenhum resultado. Tente outra busca.</p>
+        <p class="content-note">Os exemplos desta versão inicial são originais e servem como modelo de preenchimento; não são transcrições do livro.</p>
+      </div>
+
+      <article id="detail" class="detail-card" aria-live="polite" aria-label="Detalhes do ideograma">
+        <div class="detail-placeholder">
+          <span class="placeholder-mark" aria-hidden="true">文</span>
+          <h2>Escolha um ideograma</h2>
+          <p>O significado, a ordem dos traços e o exercício aparecem aqui.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer"><span>Prática constante, sem pressa.</span><span id="offline-status" aria-live="polite"></span></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
