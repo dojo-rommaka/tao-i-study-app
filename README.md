@@ -1,8 +1,8 @@
 # Tao I — Caderno de ideogramas
 
-App web progressivo (PWA), responsivo e em português, para estudar caracteres chineses pelo celular. Inclui busca, organização em unidades temáticas de estudo, progresso local, navegação entre caracteres, revisão aleatória, revelação gradual da lista textual de traços, frases autorais e exercícios.
+App web progressivo (PWA), responsivo e em português, para estudar caracteres chineses pelo celular. Inclui busca, organização por capítulos do índice do livro, progresso local, revisão aleatória, revelação gradual da lista de traços, frases autorais e exercícios.
 
-> As unidades do app são uma organização editorial criada para facilitar o estudo; não são a estrutura oficial do livro. Os 13 itens atuais, suas explicações, frases e exercícios são exemplos de apoio originais, não transcrições do livro. Para refletir capítulos e conteúdo específicos, será necessário consultar uma edição autorizada e informar seus títulos ou fornecer trechos que você tenha direito de usar. A sequência textual dos traços deve ser conferida com uma fonte confiável; esta versão não inclui animação de traços.
+> A estrutura dos capítulos foi organizada a partir do índice que você enviou. As unidades 2 a 7 refletem os títulos do sumário do livro e o conteúdo atual do app continua sendo um conjunto didático de apoio, originalmente produzido para a experiência de estudo. Para uma reprodução fiel do conteúdo do livro, é necessário checar edição autorizada e usar trechos ou materiais com permissão explícita. A sequência textual dos traços deve ser conferida com uma fonte confiável de língua chinesa; esta versão não inclui animação de traços.
 
 ## Abrir localmente
 
@@ -23,15 +23,16 @@ Abra `http://localhost:8000` no navegador. Para testar no celular, use um servid
 
 O Service Worker e a instalação PWA precisam de HTTPS (GitHub Pages fornece HTTPS) ou `localhost`.
 
-## Unidades temáticas atuais
+## Capítulos do índice atualmente mapeados
 
-1. Fundamentos e presença
-2. Coração e quietude
-3. Natureza e energia
-4. Harmonia e observação
-5. Ação e caminho
+- 2. Tao I Text
+- 3. Jin Dan — Tao Practice in Daily Life
+- 4. Practice to Heal Your Liver and Wood Element
+- 5. Practice to Heal Your Heart and Fire Element
+- 6. Practice to Heal Your Spleen and Earth Element
+- 7. Practice to Heal Your Lungs and Metal Element
 
-Para adicionar ou reorganizar unidades, edite o array `CHAPTERS` em `app.js`, incluindo os IDs dos caracteres já existentes em `data/ideogramas.json`.
+Esses títulos estão definidos em `app.js` no array `CHAPTERS`. O app já usa essa estrutura para a seleção por capítulo e a navegação.
 
 ## Adicionar um ideograma
 
@@ -54,7 +55,7 @@ Edite `data/ideogramas.json` e acrescente um objeto com esta estrutura:
 }
 ```
 
-Depois inclua o `id` no array da unidade correspondente em `CHAPTERS` dentro de `app.js`. Confira leitura, significado e sequência de traços com uma fonte confiável de língua chinesa.
+Depois, associe-o ao capítulo adequado em `CHAPTERS` em `app.js`.
 
 ## Tecnologias
 

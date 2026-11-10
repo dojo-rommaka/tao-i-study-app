@@ -1,10 +1,11 @@
 const STORAGE_KEY = 'tao-i-progress-v1';
 const CHAPTERS = [
-  { id: 'fundamentos', title: '1. Fundamentos e presença', description: 'Comece com unidade, atenção e presença humana.', entries: ['yi', 'ren'] },
-  { id: 'coracao', title: '2. Coração e quietude', description: 'Pratique intenção, serenidade e escuta interior.', entries: ['xin', 'jing'] },
-  { id: 'natureza', title: '3. Natureza e energia', description: 'Explore a relação entre sopro, céu e sustentação.', entries: ['qi', 'tian', 'di'] },
-  { id: 'harmonia', title: '4. Harmonia e observação', description: 'Estude equilíbrio, contemplação e conhecimento.', entries: ['he', 'guan', 'zhi'] },
-  { id: 'caminho', title: '5. Ação e caminho', description: 'Leve a atenção para o movimento, o desapego e a prática.', entries: ['xing', 'wu', 'dao'] }
+  { id: 'tao-i-text', title: '2. Tao I Text', description: 'Princípios fundamentais do texto e do caminho espiritual do livro.', entries: ['yi', 'ren', 'xin', 'jing', 'qi', 'tian', 'di', 'he', 'guan', 'xing', 'zhi', 'wu', 'dao'] },
+  { id: 'jin-dan', title: '3. Jin Dan — Tao Practice in Daily Life', description: 'Prática cotidiana do jin dan e da atenção ao corpo e ao ritmo.', entries: [] },
+  { id: 'heal-liver', title: '4. Practice to Heal Your Liver and Wood Element', description: 'Exercícios para equilibrar o fígado e o elemento madeira.', entries: [] },
+  { id: 'heal-heart', title: '5. Practice to Heal Your Heart and Fire Element', description: 'Trabalho para iluminar o coração e o elemento fogo.', entries: [] },
+  { id: 'heal-spleen', title: '6. Practice to Heal Your Spleen and Earth Element', description: 'Prática para a digestão, a estabilidade e o elemento terra.', entries: [] },
+  { id: 'heal-lungs', title: '7. Practice to Heal Your Lungs and Metal Element', description: 'Respiração, clareza e equilíbrio do elemento metal.', entries: [] }
 ];
 let entries = [];
 let activeFilter = 'all';
@@ -46,7 +47,7 @@ function setupChapters() {
 }
 function updateChapterDescription() {
   const chapter = CHAPTERS.find((item) => item.id === activeChapter);
-  document.querySelector('#chapter-description').textContent = chapter ? chapter.description : 'Escolha uma unidade temática ou veja todos os caracteres.';
+  document.querySelector('#chapter-description').textContent = chapter ? chapter.description : 'Escolha um capítulo do índice, ou visualize todos os ideogramas do app.';
 }
 function filteredEntries() {
   const query = searchInput.value.trim().toLocaleLowerCase('pt-BR');
@@ -91,7 +92,7 @@ function renderList() {
     renderDetail(selected, filtered);
   } else {
     selectedId = null;
-    detail.innerHTML = '<div class="detail-placeholder"><span class="placeholder-mark" aria-hidden="true">文</span><h2>Nenhum item encontrado</h2><p>Altere a busca ou os filtros para continuar.</p></div>';
+    detail.innerHTML = '<div class="detail-placeholder"><span class="placeholder-mark" aria-hidden="true">文</span><h2>Nenhum item encontrado</h2><p>Altere a busca, a unidade ou os filtros para continuar.</p></div>';
   }
   updateProgress();
 }
@@ -113,6 +114,7 @@ function renderDetail(entry, visibleEntries) {
   detail.append(header);
 
   detail.append(section('Significado individual', entry.individualMeaning));
+
   const strokes = element('section', 'detail-section');
   const strokeHeading = element('div', 'section-heading');
   strokeHeading.append(element('h3', '', `Ordem dos traços · ${entry.strokeCount}`), element('span', 'stroke-counter', `${Math.min(revealedStrokeCount, entry.strokes.length)} / ${entry.strokes.length}`));
