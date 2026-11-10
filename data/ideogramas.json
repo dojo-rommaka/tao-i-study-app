@@ -3,14 +3,21 @@
     "id": "yi",
     "character": "一",
     "pinyin": "yī",
-    "meaning": "um; único; unidade",
-    "individualMeaning": "Representa o número um. Em contextos filosóficos, pode também sugerir unidade ou princípio, conforme a fonte e o contexto.",
-    "strokes": ["Traço 1: horizontal (héng), da esquerda para a direita."],
+    "meaning": "um; unidade",
+    "individualMeaning": "Representa o princípio do número um e a ideia de unidade, começo e estabilidade da ação consciente.",
+    "strokes": [
+      "Traço 1: horizontal (héng), do início à direita, com linha reta e firme."
+    ],
     "strokeCount": 1,
-    "phrase": "Um passo atento começa a caminhada.",
-    "translation": "Frase original em português para praticar a ideia de unidade.",
-    "exercise": "Observe a respiração e faça uma pausa antes de iniciar uma tarefa.",
-    "steps": ["Relaxe a mão e apoie o papel.", "Trace 一 da esquerda para a direita, mantendo a linha estável.", "Repita cinco vezes e compare o tamanho e a inclinação.", "Leia a frase e faça o exercício por um minuto."],
+    "phrase": "Um passo atento começa a caminhada e abre a atenção.",
+    "translation": "Frase-base para praticar a ideia de unidade e presença.",
+    "exercise": "Respire três vezes e escolha uma tarefa simples para começar com calma.",
+    "steps": [
+      "Sente-se com a postura firme e os ombros relaxados.",
+      "Trace uma linha horizontal com lentidão e controle.",
+      "Repita cinco vezes, mantendo o mesmo tamanho.",
+      "Observe a sensação de início e atenção antes de agir."
+    ],
     "category": "Fundamentos"
   },
   {
@@ -18,41 +25,285 @@
     "character": "人",
     "pinyin": "rén",
     "meaning": "pessoa; ser humano",
-    "individualMeaning": "Pictograma associado à figura de uma pessoa. O sentido concreto depende do uso na palavra ou frase.",
-    "strokes": ["Traço 1: 撇 (piě), descendo para a esquerda.", "Traço 2: 捺 (nà), descendo para a direita; começa próximo ao topo do primeiro traço."],
+    "individualMeaning": "Símbolo da presença humana, do agir em relação ao mundo e da escuta consciente.",
+    "strokes": [
+      "Traço 1: traço descendente para a esquerda (piě).",
+      "Traço 2: traço descendente para a direita (nà), com direção firme e harmoniosa."
+    ],
     "strokeCount": 2,
-    "phrase": "Uma pessoa aprende também ao escutar.",
-    "translation": "Frase original em português para acompanhar a prática.",
-    "exercise": "Escute alguém por dois minutos sem interromper; depois anote o que compreendeu.",
-    "steps": ["Observe a forma geral de 人.", "Faça o traço descendente para a esquerda.", "Comece o segundo traço perto do topo e desça para a direita.", "Repita o caractere e, em seguida, pratique o exercício de escuta."],
-    "category": "Fundamentos"
+    "phrase": "Uma pessoa aprende também ao escutar antes de responder.",
+    "translation": "É a prática da atenção e da presença em relação ao outro.",
+    "exercise": "Escute alguém por dois minutos sem interromper; depois escreva o que compreendeu.",
+    "steps": [
+      "Observe a forma geral do caractere como um corpo em equilíbrio.",
+      "Faça o traço do lado esquerdo com suavidade.",
+      "Complete a linha direita mantendo igual altura e ritmo.",
+      "Aplique a prática de escuta e reflita sobre a forma como você responde."
+    ],
+    "category": "Pessoa"
   },
   {
-    "id": "shan",
-    "character": "山",
-    "pinyin": "shān",
-    "meaning": "montanha",
-    "individualMeaning": "Representa uma montanha. Em palavras compostas, o contexto determina o significado específico.",
-    "strokes": ["Traço 1: vertical central (shù), de cima para baixo.", "Traço 2: vertical com dobra (shùzhé), formando o contorno esquerdo e a base.", "Traço 3: vertical à direita (shù), de cima para baixo."],
-    "strokeCount": 3,
-    "phrase": "A montanha permanece; o caminho muda.",
-    "translation": "Frase original em português para praticar observação e mudança.",
-    "exercise": "Olhe um objeto natural por um minuto e descreva três detalhes sem julgá-los.",
-    "steps": ["Imagine o contorno simples de três picos.", "Trace primeiro a linha vertical central.", "Faça o traço com dobra à esquerda, seguindo a ordem indicada.", "Finalize com a linha vertical da direita e pratique a observação."],
-    "category": "Natureza"
-  },
-  {
-    "id": "shui",
-    "character": "水",
-    "pinyin": "shuǐ",
-    "meaning": "água",
-    "individualMeaning": "Representa água; também aparece em muitos caracteres como componente relacionado a líquidos ou fluxo.",
-    "strokes": ["Traço 1: vertical com gancho (shùgōu), no centro.", "Traço 2: traço descendente para a esquerda (piě), começando acima e à esquerda.", "Traço 3: traço descendente para a esquerda (piě), partindo da região central.", "Traço 4: traço descendente para a direita (nà), começando próximo ao centro."],
+    "id": "xin",
+    "character": "心",
+    "pinyin": "xīn",
+    "meaning": "coração; mente; intenção",
+    "individualMeaning": "O coração como centro consciente, inteligência emocional e intenção que orienta o agir.",
+    "strokes": [
+      "Traço 1: vertical central (shù).",
+      "Traço 2: traço horizontal superior (héng).",
+      "Traço 3: traço descendente para a esquerda (piě).",
+      "Traço 4: traço descendente para a direita (nà)."
+    ],
     "strokeCount": 4,
-    "phrase": "A água encontra passagem sem perder o movimento.",
-    "translation": "Frase original em português para acompanhar o estudo do caractere.",
-    "exercise": "Beba um copo de água devagar, prestando atenção à respiração e às sensações.",
-    "steps": ["Leia a ordem dos quatro traços antes de escrever.", "Faça o traço central com gancho.", "Adicione os dois traços à esquerda e finalize com o traço à direita.", "Escreva 水 três vezes e faça o exercício com atenção."],
+    "phrase": "O coração não vive em pressa; vive em atenção.",
+    "translation": "O estudo do signo leva à consciência do centro interior.",
+    "exercise": "Durante um minuto, sinta a respiração sem tentar controlar nada; depois escreva três sensações.",
+    "steps": [
+      "Trace a linha central da base para a firmeza.",
+      "Crie o traço superior para marcar o equilíbrio do centro.",
+      "Complete a simetria dos lados com movimentos pausados.",
+      "Finalize com uma pausa para perceber o que se move em você."
+    ],
+    "category": "Coração"
+  },
+  {
+    "id": "jing",
+    "character": "静",
+    "pinyin": "jìng",
+    "meaning": "quietude; serenidade",
+    "individualMeaning": "Representa a calma como qualidade de presença, uma capacidade de quietude sem rigidez.",
+    "strokes": [
+      "Traço 1: vertical central (shù).",
+      "Traço 2: traço de ponta para a direita (nà).",
+      "Traço 3: linha horizontal superior (héng).",
+      "Traço 4: traço de apoio em direção à esquerda (piě)."
+    ],
+    "strokeCount": 4,
+    "phrase": "Na quietude, o que é necessário aparece com clareza.",
+    "translation": "A calma permite perceber o essencial sem ruído mental.",
+    "exercise": "Fique em silêncio por dois minutos e observe os sons do ambiente sem comentar sobre eles.",
+    "steps": [
+      "Escreva o caractere devagar, sem pressionar a ponta do lápis.",
+      "Respeite a proporção e a distância entre os traços.",
+      "Repita a forma três vezes em uma coluna.",
+      "Ao final, mantenha um minuto de silêncio total e registre o que mudou."
+    ],
+    "category": "Calma"
+  },
+  {
+    "id": "qi",
+    "character": "气",
+    "pinyin": "qì",
+    "meaning": "energia; sopro; princípio vital",
+    "individualMeaning": "Relaciona-se ao sopro, à energia vital e ao movimento que sustenta a vida.",
+    "strokes": [
+      "Traço 1: linha vertical (shù), firme e apoiada.",
+      "Traço 2: traço descendente para a direita (nà).",
+      "Traço 3: linha horizontal curta (héng).",
+      "Traço 4: traço de curva e fluidez (zhé), fechando o movimento."
+    ],
+    "strokeCount": 4,
+    "phrase": "A energia não se força: ela flui quando o corpo se deixa ser.",
+    "translation": "Trata da qualidade vital do movimento sem tensão excessiva.",
+    "exercise": "Respire fundo por quatro segundos, sustente por quatro segundos e solte por seis segundos; repita cinco vezes.",
+    "steps": [
+      "Sente-se em posição confortável e relaxada.",
+      "Trace o caractere sem apressar a linha.",
+      "Observe o ritmo da respiração enquanto escreve.",
+      "No fim, note se a atenção ficou mais intensa e menos tensa."
+    ],
+    "category": "Energia"
+  },
+  {
+    "id": "tian",
+    "character": "天",
+    "pinyin": "tiān",
+    "meaning": "céu; natureza; ordem superior",
+    "individualMeaning": "Symboliza o céu, a grandeza da ordem natural e o campo que escapa ao controle individual.",
+    "strokes": [
+      "Traço 1: linha horizontal superior (héng).",
+      "Traço 2: linha horizontal média (héng).",
+      "Traço 3: linha vertical central (shù).",
+      "Traço 4: traço descendente inferior (nà)."
+    ],
+    "strokeCount": 4,
+    "phrase": "O céu não exige pressa: oferece tempo para quem aprende a observar.",
+    "translation": "A escuta da natureza e do tempo está no centro da prática.",
+    "exercise": "Observe o céu, a luminosidade ou o movimento do vento por dois minutos e descreva três elementos visíveis.",
+    "steps": [
+      "Pense na forma ampla do céu antes de iniciar.",
+      "Trace as linhas horizontais como apoio de um espaço grande.",
+      "Complete com a vertical para sustentar a estrutura.",
+      "Leve um minuto de atenção ao ambiente real antes de escrever outra vez."
+    ],
     "category": "Natureza"
+  },
+  {
+    "id": "di",
+    "character": "地",
+    "pinyin": "dì",
+    "meaning": "terra; base; sustentação",
+    "individualMeaning": "Conecta-se ao chão, à estabilidade, à base material e ao lugar em que a ação se sustenta.",
+    "strokes": [
+      "Traço 1: linha horizontal de base (héng).",
+      "Traço 2: vertical esquerda (shù).",
+      "Traço 3: traço central com apoio vertical (shù).",
+      "Traço 4: traço inferior à direita (nà)."
+    ],
+    "strokeCount": 4,
+    "phrase": "A base firme permite que a ação seja leve e clara.",
+    "translation": "A estabilidade não é rigidez; é sustentação consciente.",
+    "exercise": "Sente-se de forma estável e anote como a postura afeta a sua atenção durante três minutos.",
+    "steps": [
+      "Imagine a superfície da terra como apoio firme.",
+      "Trace a base com resistência suave.",
+      "Complete a estrutura em equilíbrio.",
+      "Observe se a postura de pé ou sentado altera sua respiração."
+    ],
+    "category": "Base"
+  },
+  {
+    "id": "he",
+    "character": "和",
+    "pinyin": "hé",
+    "meaning": "harmonia; paz; equilíbrio",
+    "individualMeaning": "Representa a reunião de diferentes elementos em um mesmo movimento, sem violência nem excessos.",
+    "strokes": [
+      "Traço 1: horizontal superior (héng).",
+      "Traço 2: linha central com circulação suave (shù).",
+      "Traço 3: traço curtinho em direção à esquerda (piě).",
+      "Traço 4: linha inferior que fecha o movimento (héng)."
+    ],
+    "strokeCount": 4,
+    "phrase": "A harmonia cresce quando a intenção não quer vencer, mas ajustar.",
+    "translation": "A paz aparece quando há equilíbrio entre ação e descanso.",
+    "exercise": "Escolha uma conversa e observe se você está tentando vencer ou compreender.",
+    "steps": [
+      "Escreva o caractere sem apertar o lápis.",
+      "Dê atenção ao equilíbrio entre os lados.",
+      "Repita o caractere três vezes e compare a sensação de ritmo.",
+      "Durante o exercício, responda com quietude e atenção."
+    ],
+    "category": "Harmonia"
+  },
+  {
+    "id": "guan",
+    "character": "观",
+    "pinyin": "guān",
+    "meaning": "observar; contemplar; ver com atenção",
+    "individualMeaning": "Relaciona-se à contemplação e à capacidade de ver sem julgamento imediato.",
+    "strokes": [
+      "Traço 1: linha horizontal superior (héng).",
+      "Traço 2: linha vertical central (shù).",
+      "Traço 3: traço de apoio inferior (piě).",
+      "Traço 4: traço final de observação (nà)."
+    ],
+    "strokeCount": 4,
+    "phrase": "Observar é o primeiro passo para compreender sem se agitar.",
+    "translation": "O que se olha com atenção deixa de ser ruído e vira clareza.",
+    "exercise": "Observe a expressão de uma pessoa, um objeto ou um ambiente por um minuto e descreva apenas o que você vê.",
+    "steps": [
+      "Escolha um ponto fixo antes de começar.",
+      "Trace as linhas com pausa entre elas.",
+      "Repita a escrita sem forçar a exigência da perfeição.",
+      "No fim, reflita sobre o que muda quando você apenas observa."
+    ],
+    "category": "Observação"
+  },
+  {
+    "id": "xing",
+    "character": "行",
+    "pinyin": "xíng",
+    "meaning": "andar; agir; mover-se",
+    "individualMeaning": "Conecta-se ao ato de caminhar e de agir em conformidade com a presença interior.",
+    "strokes": [
+      "Traço 1: linha horizontal superior (héng).",
+      "Traço 2: traço descendente vertical (shù).",
+      "Traço 3: linha diagonal final (piě).",
+      "Traço 4: traço de apoio que encerra o movimento."
+    ],
+    "strokeCount": 4,
+    "phrase": "O verdadeiro andar não é correr; é agir com presença.",
+    "translation": "A ação consciente é diferente da pressa compulsiva.",
+    "exercise": "Faça dez passos lentos e perceba a relação entre intenção e momento da caminhada.",
+    "steps": [
+      "Imagine um caminho e um ritmo constante.",
+      "Trace o caractere sem acelerar.",
+      "Observe o espaço entre um traço e outro.",
+      "Conclua o exercício com uma caminhada muito lenta e consciente."
+    ],
+    "category": "Ação"
+  },
+  {
+    "id": "zhi",
+    "character": "知",
+    "pinyin": "zhī",
+    "meaning": "conhecimento; perceber; compreender",
+    "individualMeaning": "Ligado ao saber interior e à capacidade de perceber a realidade sem confundir o juízo com a verdade.",
+    "strokes": [
+      "Traço 1: linha de base (héng).",
+      "Traço 2: traço vertical central (shù).",
+      "Traço 3: traço descendente lateral (piě).",
+      "Traço 4: linha final em direção à direita (nà)."
+    ],
+    "strokeCount": 4,
+    "phrase": "Saber começa quando a mente se silencia o bastante para perceber.",
+    "translation": "O conhecimento mais profundo nasce da quietude e da observação.",
+    "exercise": "Escolha uma ideia sua e escreva três fatos, três sentimentos e três suposições sobre ela.",
+    "steps": [
+      "Reflita sobre o que é fato e o que é interpretação.",
+      "Trace o caractere em ritmo estável.",
+      "Escreva a frase e compare os diferentes níveis de conhecimento.",
+      "Faça uma pausa antes de concluir o exercício."
+    ],
+    "category": "Conhecimento"
+  },
+  {
+    "id": "wu",
+    "character": "无",
+    "pinyin": "wú",
+    "meaning": "vazio; ausência; não ter apego",
+    "individualMeaning": "Apresenta a ideia de vazio ou ausência como estado de liberdade, não de vazio vazio.",
+    "strokes": [
+      "Traço 1: linha horizontal superior (héng).",
+      "Traço 2: linha vertical central (shù).",
+      "Traço 3: traço lateral livre (piě).",
+      "Traço 4: apoio inferior que fecha o movimento (nà)."
+    ],
+    "strokeCount": 4,
+    "phrase": "O vazio não é ausência de vida; é a liberdade de não se prender ao excesso.",
+    "translation": "A ausência de apego pode tornar a mente mais leve e clara.",
+    "exercise": "Escolha uma coisa que você queira controlar e anote três formas de deixá-la respirar sem forçar.",
+    "steps": [
+      "Escreva o caractere com um ritmo mais leve do que o habitual.",
+      "Observe a sensação de espaço entre o traço e o pensamento.",
+      "Repita três vezes e note a diferença entre tensão e soltura.",
+      "Reflita sobre o que relaxa quando você não tenta dominar tudo."
+    ],
+    "category": "Vazio"
+  },
+  {
+    "id": "dao",
+    "character": "道",
+    "pinyin": "dào",
+    "meaning": "caminho; maneira; via",
+    "individualMeaning": "O caminho como prática, presença e ordem que orienta a vida sem necessidade de força.",
+    "strokes": [
+      "Traço 1: linha horizontal superior (héng).",
+      "Traço 2: linha vertical central (shù).",
+      "Traço 3: traço debaixo da linha da base (piě).",
+      "Traço 4: traço de apoio final em direção à direita (nà)."
+    ],
+    "strokeCount": 4,
+    "phrase": "O caminho se revela na prática simples, repetida e consciente.",
+    "translation": "Trata da jornada e da forma de viver com presença constante.",
+    "exercise": "Escolha uma ação do dia e faça-a de forma lenta, com atenção plena e sem pressa.",
+    "steps": [
+      "Faça uma pausa antes de escrever e observe a intenção da ação.",
+      "Trace o caractere com equilíbrio e sem tensão.",
+      "Repita três vezes em sequência.",
+      "Conclua com a pergunta: 'Como a minha prática hoje está refletindo o caminho?'"
+    ],
+    "category": "Caminho"
   }
 ]
