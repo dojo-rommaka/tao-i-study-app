@@ -1,8 +1,8 @@
 # Tao I — Caderno de ideogramas
 
-App web progressivo (PWA), responsivo e em português, para estudar caracteres chineses pelo celular. Inclui busca, filtros de progresso, detalhes do caractere, ordem textual dos traços, frases e exercícios. O progresso fica salvo localmente no navegador.
+App web progressivo (PWA), responsivo e em português, para estudar caracteres chineses pelo celular. Inclui busca, organização em unidades temáticas de estudo, progresso local, navegação entre caracteres, revisão aleatória, revelação gradual da lista textual de traços, frases autorais e exercícios.
 
-> Os quatro itens incluídos são exemplos originais para demonstrar a estrutura do app. As frases e os exercícios não foram extraídos do livro. Antes de incluir conteúdo do livro, verifique os direitos autorais e use apenas material que você tenha autorização para reproduzir.
+> As unidades do app são uma organização editorial criada para facilitar o estudo; não são a estrutura oficial do livro. Os 13 itens atuais, suas explicações, frases e exercícios são exemplos de apoio originais, não transcrições do livro. Para refletir capítulos e conteúdo específicos, será necessário consultar uma edição autorizada e informar seus títulos ou fornecer trechos que você tenha direito de usar. A sequência textual dos traços deve ser conferida com uma fonte confiável; esta versão não inclui animação de traços.
 
 ## Abrir localmente
 
@@ -23,6 +23,16 @@ Abra `http://localhost:8000` no navegador. Para testar no celular, use um servid
 
 O Service Worker e a instalação PWA precisam de HTTPS (GitHub Pages fornece HTTPS) ou `localhost`.
 
+## Unidades temáticas atuais
+
+1. Fundamentos e presença
+2. Coração e quietude
+3. Natureza e energia
+4. Harmonia e observação
+5. Ação e caminho
+
+Para adicionar ou reorganizar unidades, edite o array `CHAPTERS` em `app.js`, incluindo os IDs dos caracteres já existentes em `data/ideogramas.json`.
+
 ## Adicionar um ideograma
 
 Edite `data/ideogramas.json` e acrescente um objeto com esta estrutura:
@@ -34,7 +44,7 @@ Edite `data/ideogramas.json` e acrescente um objeto com esta estrutura:
   "pinyin": "míng",
   "meaning": "brilhante; claro",
   "individualMeaning": "Explique o sentido do caractere e indique que o contexto pode alterar a interpretação.",
-  "strokes": ["Traço 1: descrição da direção e do tipo."],
+  "strokes": ["Traço 1: descrição conferida da direção e do tipo."],
   "strokeCount": 1,
   "phrase": "Escreva aqui uma frase original de estudo.",
   "translation": "Nota ou tradução da frase.",
@@ -44,8 +54,8 @@ Edite `data/ideogramas.json` e acrescente um objeto com esta estrutura:
 }
 ```
 
-Confira a sequência de traços e os significados com uma fonte confiável de língua chinesa antes de publicar. A aplicação apresenta a ordem em texto; não desenha animações de traços nesta versão inicial.
+Depois inclua o `id` no array da unidade correspondente em `CHAPTERS` dentro de `app.js`. Confira leitura, significado e sequência de traços com uma fonte confiável de língua chinesa.
 
 ## Tecnologias
 
-HTML, CSS e JavaScript sem dependências; Web App Manifest e Service Worker para cache do app shell. O estado de estudo é guardado no `localStorage` do dispositivo.
+HTML, CSS e JavaScript sem dependências; Web App Manifest e Service Worker para cache do app shell. O progresso é guardado no `localStorage` do dispositivo.

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tao-i-static-v1';
+const CACHE_NAME = 'tao-i-static-v2';
 const APP_SHELL = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest', './icon.svg', './data/ideogramas.json'];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));

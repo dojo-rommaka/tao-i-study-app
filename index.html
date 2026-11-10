@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#17352c">
-  <meta name="description" content="Caderno móvel para estudar ideogramas, traços, frases e exercícios.">
+  <meta name="description" content="Caderno móvel para estudar ideogramas chineses, traços, frases e exercícios.">
   <title>Tao I — Caderno de ideogramas</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -22,40 +22,47 @@
   <main id="inicio" class="page">
     <section class="intro" aria-labelledby="page-title">
       <p class="eyebrow">SEU ESPAÇO DE PRÁTICA</p>
-      <h1 id="page-title">Estude um traço de cada vez.</h1>
-      <p>Consulte significados, pratique a escrita e acompanhe o que já estudou.</p>
+      <h1 id="page-title">Um traço de cada vez.</h1>
+      <p>Explore os caracteres, pratique a escrita e acompanhe seu progresso.</p>
+    </section>
+
+    <section class="progress-card" aria-label="Seu progresso">
+      <div class="progress-copy">
+        <span class="progress-icon" aria-hidden="true">✦</span>
+        <div><strong id="progress-label">Sua jornada começa aqui</strong><small id="progress-count">0 de 0 ideogramas estudados</small></div>
+      </div>
+      <div class="progress-actions">
+        <div class="progress-track" role="progressbar" aria-label="Progresso de estudo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="progress-fill"></span></div>
+        <button id="review-button" class="review-button" type="button">Revisar um</button>
+      </div>
+    </section>
+
+    <section class="chapter-panel" aria-labelledby="chapter-heading">
+      <div class="chapter-label"><span class="chapter-icon" aria-hidden="true">章</span><div><h2 id="chapter-heading">Escolha uma unidade</h2><p>Organização temática de estudo</p></div></div>
+      <label class="select-wrap"><span class="sr-only">Selecionar unidade de estudo</span><select id="chapter-select"><option value="all">Todas as unidades</option></select><span aria-hidden="true">⌄</span></label>
+      <p id="chapter-description" class="chapter-description"></p>
+      <p class="editorial-note">Unidades temáticas criadas para este app; não representam a ordem oficial dos capítulos do livro.</p>
     </section>
 
     <section class="toolbar" aria-label="Buscar e filtrar ideogramas">
-      <label class="search-box">
-        <span aria-hidden="true">⌕</span>
-        <span class="sr-only">Buscar</span>
-        <input id="search" type="search" placeholder="Buscar caractere ou significado" autocomplete="off">
-      </label>
+      <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Buscar</span><input id="search" type="search" placeholder="Buscar caractere ou significado" autocomplete="off"></label>
       <div class="filter-row" role="group" aria-label="Filtro de estudo">
-        <button class="filter active" data-filter="all" type="button">Todos</button>
-        <button class="filter" data-filter="new" type="button">Por estudar</button>
-        <button class="filter" data-filter="learned" type="button">Estudados</button>
+        <button class="filter active" data-filter="all" type="button" aria-pressed="true">Todos</button>
+        <button class="filter" data-filter="new" type="button" aria-pressed="false">Por estudar</button>
+        <button class="filter" data-filter="learned" type="button" aria-pressed="false">Estudados</button>
       </div>
     </section>
 
     <section class="study-layout" aria-label="Conteúdo de estudo">
       <div class="list-column">
-        <div class="section-heading">
-          <h2>Ideogramas</h2>
-          <span id="result-count" class="result-count" aria-live="polite"></span>
-        </div>
+        <div class="section-heading"><div><p class="eyebrow">BIBLIOTECA</p><h2>Ideogramas</h2></div><span id="result-count" class="result-count" aria-live="polite"></span></div>
         <div id="character-list" class="character-list" aria-live="polite"></div>
-        <p id="empty-state" class="empty-state" hidden>Nenhum resultado. Tente outra busca.</p>
-        <p class="content-note">Os exemplos desta versão inicial são originais e servem como modelo de preenchimento; não são transcrições do livro.</p>
+        <p id="empty-state" class="empty-state" hidden>Nenhum resultado nesta seleção. Tente outra busca ou unidade.</p>
+        <p class="content-note">As frases e os exercícios são materiais originais de apoio, não transcrições do livro.</p>
       </div>
 
       <article id="detail" class="detail-card" aria-live="polite" aria-label="Detalhes do ideograma">
-        <div class="detail-placeholder">
-          <span class="placeholder-mark" aria-hidden="true">文</span>
-          <h2>Escolha um ideograma</h2>
-          <p>O significado, a ordem dos traços e o exercício aparecem aqui.</p>
-        </div>
+        <div class="detail-placeholder"><span class="placeholder-mark" aria-hidden="true">文</span><h2>Escolha um ideograma</h2><p>Significado, traços e prática guiada aparecem aqui.</p></div>
       </article>
     </section>
   </main>
